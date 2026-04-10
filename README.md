@@ -57,6 +57,3 @@ Stores one record per email and repository pair.
 | `confirmed_at`      | timestamp                       | Set when the user confirms the subscription (null if unconfirmed) |
 | `created_at`        | timestamp                       | Row creation time                                                 |
 
----
-
-If you want, I can also make a **stronger “production-level” README** (with setup, env variables, architecture, and improvements section) — that would help a lot for job applications.
