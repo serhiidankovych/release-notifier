@@ -32,20 +32,14 @@ Swagger API docs: [http://localhost:3003/docs/](http://localhost:3000/docs/)
 
 ## Deployment
 
-**Live API URL:** [https://notifier.deadsign-api.xyz](https://notifier.deadsign-api.xyz)
+<img width="1919" height="537" alt="App" src="https://github.com/user-attachments/assets/e5bcf28c-1b13-46b8-9e05-e93051b1d90a" />
+
+**API URL:** [https://notifier.deadsign-api.xyz](https://notifier.deadsign-api.xyz)
+
+**Web App URL:** [https://release-notifier-app.vercel.app](https://release-notifier-app.vercel.app)
 
 > [!NOTE]  
 > This service is currently running on a self-hosted Ubuntu server. If the service is temporarily unavailable, it may be due to local power outages.
-
-### Test the Public API
-You can test the subscription endpoint using the following `curl` command:
-
-```bash
-curl -X POST https://notifier.deadsign-api.xyz/api/subscribe \
-  -H "Accept: application/json" \
-  -H "Content-Type: application/json" \
-  -d '{"email":"your-email@example.com","repo":"owner/repo"}'
-```
 
 ## Database
 
