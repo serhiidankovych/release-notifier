@@ -74,3 +74,31 @@ Stores one record per email and repository pair.
 | `confirmed_at`      | timestamp                       | Set when the user confirms the subscription (null if unconfirmed) |
 | `created_at`        | timestamp                       | Row creation time                                                 |
 
+## Showcasing the Workflow
+
+This section demonstrates the end-to-step process of subscribing to a repository and managing notifications.
+
+### 1. Initiate Subscription
+<img width="100%" alt="Subscription Request" src="https://github.com/user-attachments/assets/737892ce-7524-429e-a5fa-c81eed629e7a" />
+
+---
+
+### 2. Confirmation Email
+<img width="100%" alt="Verification Email" src="https://github.com/user-attachments/assets/f5673d6f-0e36-4ad3-9058-4bf8fdbb5cda" />
+
+---
+
+### 3. Confirming the Subscription
+<img width="100%" alt="Confirmation UI" src="https://github.com/user-attachments/assets/4d72ad18-73f9-44fa-a017-23bb52385dcf" />
+
+---
+
+### 4. New Release Notifications
+<img width="1497" height="247" alt="New Release" src="https://github.com/user-attachments/assets/008193eb-a473-4472-81ec-9a4dd0b90205" />
+
+---
+
+### 5. View Subscriptions
+<img width="100%" alt="View Subscriptions" src="https://github.com/user-attachments/assets/27e2b304-4e71-484d-8b79-9168bc0cfab0" />
+
+
