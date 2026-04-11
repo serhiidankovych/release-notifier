@@ -20,5 +20,5 @@ RUN npm install --production
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/src/db/migrations ./src/db/migrations
 
-EXPOSE 3000
+EXPOSE 3003
 CMD ["npm", "start"]
