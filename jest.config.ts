@@ -5,7 +5,6 @@ const config: Config = {
   testEnvironment: "node",
   extensionsToTreatAsEsm: [".ts"],
   moduleNameMapper: {
-    // This handles the .js extension in imports
     "^(\\.{1,2}/.*)\\.js$": "$1",
   },
   transform: {
