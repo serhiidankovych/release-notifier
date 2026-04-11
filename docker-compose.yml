@@ -2,7 +2,7 @@ services:
   api:
     build: .
     ports:
-      - "3000:3000"
+      - "3003:3003"
     env_file:
       - .env
     environment:

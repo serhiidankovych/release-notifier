@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 import Bottleneck from "bottleneck";
-import pRetry, { AbortError } from "p-retry";
+import pRetry from "p-retry";
 import { config } from "../config/unifiedConfig.js";
 import { NotFoundError } from "../types/errors.js";
 
@@ -59,14 +59,11 @@ async function githubGet<T>(path: string): Promise<T> {
           const status = error.response?.status;
 
           if (status === 404) {
-            throw new AbortError(
-              new NotFoundError("Repository not found on GitHub"),
-            );
+            throw new NotFoundError("Repository not found on GitHub");
           }
 
           if (status === 429) {
             const waitMs = retryAfterMs(error);
-
             await new Promise<void>((resolve) => setTimeout(resolve, waitMs));
             throw error;
           }
