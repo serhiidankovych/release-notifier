@@ -99,4 +99,6 @@ Stores one record per email and repository pair.
 ### 5. View Subscriptions
 <img width="100%" alt="View Subscriptions" src="https://github.com/user-attachments/assets/27e2b304-4e71-484d-8b79-9168bc0cfab0" />
 
+## Unit Tests
+<img width="1043" height="493" alt="Unit Tests" src="https://github.com/user-attachments/assets/147ba547-2b1f-4d9b-80f6-d04228668904" />
 
