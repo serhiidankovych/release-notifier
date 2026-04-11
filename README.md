@@ -76,8 +76,6 @@ Stores one record per email and repository pair.
 
 ## Showcasing the Workflow
 
-This section demonstrates the end-to-step process of subscribing to a repository and managing notifications.
-
 ### 1. Initiate Subscription
 <img width="100%" alt="Subscription Request" src="https://github.com/user-attachments/assets/737892ce-7524-429e-a5fa-c81eed629e7a" />
 
